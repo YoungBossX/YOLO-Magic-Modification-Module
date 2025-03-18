@@ -47,215 +47,258 @@
 ## 更新日志
 
 
-1. 2024-12-28 更新
 
-     **C1 主干（Backbone）**：新增多个即插即用主干网络模块
+#### **C1 主干（Backbone）**：新增多个即插即用主干网络模块
 
-    （1）**RepViT (CVPR 2024)**
+##### （1）**RepViT (CVPR 2024)**
 
-     ![RepViT结构图](../Images/HackingYOLO_README/RepViT.png)
+<div align=center>
+<img src="../Images/HackingYOLO_README/RepViT.png" width = "50%">
+</div>
 
-    作者：Ao Wang, Hui Chen, Zijia Lin, Jungong Han, Guiguang Ding
+`作者：Ao Wang, Hui Chen, Zijia Lin, Jungong Han, Guiguang Ding`
 
-    团队：Tsinghua University; BNRist; The University of Sheffield
-    
-    论文地址：https://arxiv.org/pdf/2307.09283v8
-    
-    代码地址：https://github.com/THU-MIG/RepViT
+`团队：Tsinghua University; BNRist; The University of Sheffield`
 
-    （2）**StarNet (CVPR 2024)**
+论文地址：https://arxiv.org/pdf/2307.09283v8
 
-     ![StarNet结构图](../Images/HackingYOLO_README/StarNet.png)
+代码地址：https://github.com/THU-MIG/RepViT
 
-    作者：Xu Ma, Xiyang Dai, Yue Bai, Yizhou Wang, Yun Fu
+##### （2）**StarNet (CVPR 2024)**
 
-    团队：Northeastern University; Microsoft
+<div align=center>
+<img src="../Images/HackingYOLO_README/StarNet.png" width = "50%">
+</div>
 
-    论文地址：https://arxiv.org/pdf/2403.19967
-    
-    代码地址：https://github.com/ma-xu/Rewrite-the-Stars
+`作者：Xu Ma, Xiyang Dai, Yue Bai, Yizhou Wang, Yun Fu`
+
+`团队：Northeastern University; Microsoft`
+
+论文地址：https://arxiv.org/pdf/2403.19967
+
+代码地址：https://github.com/ma-xu/Rewrite-the-Stars
 
 
-    （3）**EfficientViT (CVPR 2023)**
+##### （3）**EfficientViT (CVPR 2023)**
 
-     ![EfficientViT结构图](../Images/HackingYOLO_README/EfficientViT.png)
+<div align=center>
+<img src="../Images/HackingYOLO_README/EfficientViT.png" width = "50%">
+</div>
+
+`作者：Xinyu Liu, Houwen Peng, Ningxin Zheng, Yuqing Yang, Han Hu, Yixuan Yuan`
+
+`团队：The Chinese University of Hong Kong; Microsoft Research`
+
+论文地址：https://arxiv.org/pdf/2305.07027
+
+代码地址：https://github.com/mit-han-lab/efficientvit
+
+
+##### （4）**FasterNet (CVPR 2023)**
+
+<div align=center>
+<img src="../Images/HackingYOLO_README/FasterNet.png" width = "50%">
+</div>
+
+`作者：Jierun Chen, Shiu-hong Kao, Hao He, Weipeng Zhuo, Song Wen, Chul-Ho Lee, S.-H. Gary Chan`
+
+`团队：HKUST; Rutgers University; Texas State University`
+
+论文地址：https://arxiv.org/pdf/2303.03667v3
+
+代码地址：https://github.com/JierunChen/FasterNet
+
+
+##### （5）**ConvNeXt V2**
+
+<div align=center>
+<img src="../Images/HackingYOLO_README/ConvNeXt V2.png" width = "50%">
+</div>
+
+`作者：Sanghyun Woo, Shoubhik Debnath, Ronghang Hu, Xinlei Chen, Zhuang Liu, In So Kweon, Saining Xie`
+
+`团队：KAIST; Meta AI, FAIR; New York University`
+
+论文地址：https://arxiv.org/pdf/2301.00808
+
+代码地址：https://github.com/facebookresearch/ConvNeXt-V2
+
+##### （6）**Efficient Former V2 (ICCV 2023)**
+
+<div align=center>
+<img src="../Images/HackingYOLO_README/Efficient Former V2.png" width = "50%">
+</div>
+
+`作者：Yanyu Li, Geng Yuan, Yang Wen, Ju Hu, Georgios Evangelidis, Sergey Tulyakov, Yanzhi Wang, Jian Ren`
+
+`团队：Snap Inc; Northeastern University`
+
+论文地址：https://arxiv.org/pdf/2203.03952
+
+代码地址：https://github.com/snap-research/EfficientFormer
+
+
+##### （7）**LSKNet (IJCV 2024 & ICCV 2023)**
+
+<div align=center>
+<img src="../Images/HackingYOLO_README/LSKNet.png" width = "50%">
+</div>
+
+`作者：Yuxuan Li, Xiang Li, Yimian Dai, Qibin Hou, Li Liu, Yongxiang Liu, Ming-Ming Cheng, Jian Yang`
+
+`团队：VCIP, CS, Nankai University; Academy of Advanced Technology Research of Hunan; NKIARI, Futian`
+
+论文地址：https://arxiv.org/pdf/2403.11735
+
+代码地址：https://github.com/zcablii/LSKNet
+
+
+##### （8）**Swin Transformer**
+
+<div align=center>
+<img src="../Images/HackingYOLO_README/Swin Transformer.png" width = "50%">
+</div>
+
+`作者：Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo`
+
+`团队：Microsoft Research Asia`
+
+论文地址：https://arxiv.org/pdf/2103.14030
+
+代码地址：https://github.com/microsoft/Swin-Transformer
      
-    作者：Xinyu Liu, Houwen Peng, Ningxin Zheng, Yuqing Yang, Han Hu, Yixuan Yuan
 
-    团队：The Chinese University of Hong Kong; Microsoft Research
 
-    论文地址：https://arxiv.org/pdf/2305.07027
-    
-    代码地址：https://github.com/mit-han-lab/efficientvit
+#### **C1 主干（Backbone）**：新增多个即插即用主干网络模块
 
+##### （1）**VanillaNet**
 
-    （4）**FasterNet (CVPR 2023)**
-    
-    ![FasterNet结构图](../Images/HackingYOLO_README/FasterNet.png)
+<div align=center>
+<img src="../Images/HackingYOLO_README/VanillaNet.png" width = "50%">
+</div>
 
-    作者：Jierun Chen, Shiu-hong Kao, Hao He, Weipeng Zhuo, Song Wen, Chul-Ho Lee, S.-H. Gary Chan
+`作者：Hanting Chen, Yunhe Wang, Jianyuan Guo, Dacheng Tao`
 
-    团队：HKUST; Rutgers University; Texas State University
+`团队：Huawei Noah’s Ark Lab; School of Computer Science, University of Sydney`
 
-    论文地址：https://arxiv.org/pdf/2303.03667v3
-    
-    代码地址：https://github.com/JierunChen/FasterNet
-   
+论文地址：https://arxiv.org/pdf/2305.12972v2
 
-    （5）**ConvNeXt V2**
+代码地址：https://github.com/huawei-noah/VanillaNet
 
-     ![ConvNeXt V2结构图](<../Images/HackingYOLO_README/ConvNeXt V2.png>)
+##### （2）**CSwin Transformer (CVPR 2022)**
 
-    作者：Sanghyun Woo, Shoubhik Debnath, Ronghang Hu, Xinlei Chen, Zhuang Liu, In So Kweon, Saining Xie
+<div align=center>
+<img src="../Images/HackingYOLO_README/CSwin Transformer.png" width = "50%">
+</div>
 
-    团队：KAIST; Meta AI, FAIR; New York University
-    
-    论文地址：https://arxiv.org/pdf/2301.00808
-    
-    代码地址：https://github.com/facebookresearch/ConvNeXt-V2
+`作者：Xiaoyi Dong, Jianmin Bao, Dongdong Chen, Weiming Zhang, Nenghai Yu, Lu Yuan, Dong Chen, Baining Guo`
 
-    （6）**Efficient Former V2 (ICCV 2023)**
+`团队：University of Science and Technology of China; Microsoft Research Asia ;Microsoft Cloud + AI`
 
-     ![Efficient Former V2结构图](<../Images/HackingYOLO_README/Efficient Former V2.png>)
+论文地址：https://arxiv.org/pdf/2107.00652
 
-    作者：Yanyu Li, Geng Yuan, Yang Wen, Ju Hu, Georgios Evangelidis, Sergey Tulyakov, Yanzhi Wang, Jian Ren
+代码地址：https://github.com/microsoft/CSWin-Transformer
 
-    团队：Snap Inc; Northeastern University
+#### **C2 颈部（Neck）**：新增即插即用颈部网络模块
 
-    论文地址：https://arxiv.org/pdf/2203.03952
-    
-    代码地址：https://github.com/snap-research/EfficientFormer
-    
+##### （1）**GFPN (DEMO-YOLO)**
 
-    （7）**LSKNet (IJCV 2024 & ICCV 2023)**
+<div align=center>
+<img src="../Images/HackingYOLO_README/DAMO-YOLO GFPN.png" width = "50%">
+</div>
 
-     ![LSKNet结构图](../Images/HackingYOLO_README/LSKNet.png)
+`作者：Xianzhe Xu, Yiqi Jiang, Weihua Chen, Yilun Huang, Yuan Zhang, Xiuyu Sun`
 
-    作者：Yuxuan Li, Xiang Li, Yimian Dai, Qibin Hou, Li Liu, Yongxiang Liu, Ming-Ming Cheng, Jian Yang
+`团队：Alibaba Group`
 
-    团队：VCIP, CS, Nankai University; Academy of Advanced Technology Research of Hunan; NKIARI, Futian
-    
-    论文地址：https://arxiv.org/pdf/2403.11735
-    
-    代码地址：https://github.com/zcablii/LSKNet
-    
-    
-    （8）**Swin Transformer**
+论文地址：https://arxiv.org/abs/2211.15444
 
-     ![Swin Transformer结构图](<../Images/HackingYOLO_README/Swin Transformer.png>)
+代码地址：https://github.com/tinyvision/damo-yolo
 
-    作者：Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo
+#### **C3 头部（Head）**：新增即插即用头部网络模块
 
-    团队：Microsoft Research Asia
-    
-    论文地址：https://arxiv.org/pdf/2103.14030
-    
-    代码地址：https://github.com/microsoft/Swin-Transformer
-     
+##### （1）**DynamicHead（DyHead）**
 
-2. 2025-1-5 更新
+<div align=center>
+<img src="../Images/HackingYOLO_README/DynamicHead(DyHead).png" width = "50%">
+</div>
 
-     **C1 主干（Backbone）**：新增多个即插即用主干网络模块
+`作者：Xiyang Dai, Yinpeng Chen, Bin Xiao, Dongdong Chen, Mengchen Liu, Lu Yuan, Lei Zhang`
 
-    （1）**VanillaNet**
+`团队：Microsoft Redmond`
 
-    ![VanillaNet结构图](../Images/HackingYOLO_README/VanillaNet.png)
+论文地址：https://arxiv.org/abs/2106.08322
 
-    作者：Hanting Chen, Yunhe Wang, Jianyuan Guo, Dacheng Tao
+代码地址：https://github.com/microsoft/DynamicHead
 
-    团队：Huawei Noah’s Ark Lab; School of Computer Science, University of Sydney
-    
-    论文地址：https://arxiv.org/pdf/2305.12972v2
-    
-    代码地址：https://github.com/huawei-noah/VanillaNet
-    
-    （2）**CSwin Transformer (CVPR 2022)**
+#### **C4 注意力机制（Attention）**：新增多个即插即用注意力机制网络模块
 
-     ![CSwin Transformer结构图](<../Images/HackingYOLO_README/CSwin Transformer.png>)
+##### （1）**CBAM**
 
-    作者：Xiaoyi Dong, Jianmin Bao, Dongdong Chen, Weiming Zhang, Nenghai Yu, Lu Yuan, Dong Chen, Baining Guo
+<div align=center>
+<img src="../Images/HackingYOLO_README/CBAM.png" width = "50%">
+</div>
 
-    团队：University of Science and Technology of China; Microsoft Research Asia ;Microsoft Cloud + AI
+`作者：Sanghyun Woo, Jongchan Park, Joon-Young Lee, In So Kweon`
 
-    论文地址：https://arxiv.org/pdf/2107.00652
-    
-    代码地址：https://github.com/microsoft/CSWin-Transformer
+`团队：Korea Advanced Institute of Science and Technology; Lunit Inc.; Adobe Research`
 
-    **C2 颈部（Neck）**：新增即插即用颈部网络模块
+论文地址：https://arxiv.org/abs/1807.06521
 
-    （1）**GFPN (DEMO-YOLO)**
-    
-    ![GFPN结构图](<../Images/HackingYOLO_README/DAMO-YOLO GFPN.png>)
+##### （2）**SE**
 
-    作者：Xianzhe Xu, Yiqi Jiang, Weihua Chen, Yilun Huang, Yuan Zhang, Xiuyu Sun
+<div align=center>
+<img src="../Images/HackingYOLO_README/SE.png" width = "50%">
+</div>
 
-    团队：Alibaba Group
+`作者：Jie Hu, Li Shen, Samuel Albanie, Gang Sun, Enhua Wu`
 
-    论文地址：https://arxiv.org/abs/2211.15444
-    
-    代码地址：https://github.com/tinyvision/damo-yolo
-    
-    **C3 头部（Head）**：新增即插即用头部网络模块
+`团队：State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences; Faculty of Science and Technology & AI Center at University of Macau`
 
-    （1）**DynamicHead（DyHead）**
+论文地址：https://arxiv.org/abs/1709.01507
 
-     ![DynamicHead结构图](../Images/HackingYOLO_README/DynamicHead(DyHead).png)
-     
-    作者：Xiyang Dai, Yinpeng Chen, Bin Xiao, Dongdong Chen, Mengchen Liu, Lu Yuan, Lei Zhang
+代码地址：https://github.com/hujie-frank/SENet
 
-    团队：Microsoft Redmond
+#### **C6 其他**：新增上、下采样和卷积即插即用模块
 
-    论文地址：https://arxiv.org/abs/2106.08322
-    
-    代码地址：https://github.com/microsoft/DynamicHead
+##### （1）**上采样模块 EUCB（EMCAD）**
 
-    **C4 注意力机制（Attention）**：新增多个即插即用注意力机制网络模块
+<div align=center>
+<img src="../Images/HackingYOLO_README/EMCAD EUCB.png" width = "50%">
+</div>
 
-    （1）**CBAM**
+`作者：Md Mostafijur Rahman, Mustafa Munir, Radu Marculescu`
 
-     ![CBAM结构图](../Images/HackingYOLO_README/CBAM.png)
+`团队：The University of Texas at Austin Austin`
 
-    作者：Sanghyun Woo, Jongchan Park, Joon-Young Lee, In So Kweon
+论文地址：https://arxiv.org/abs/2405.06880
 
-    团队：Korea Advanced Institute of Science and Technology; Lunit Inc.; Adobe Research
+代码地址：https://github.com/SLDGroup/EMCAD
 
-    论文地址：https://arxiv.org/abs/1807.06521
+##### （2）**卷积模块 C2f_CMUNeXtBlock（CMUNeXt）**
 
-    （2）**SE**
+<div align=center>
+<img src="../Images/HackingYOLO_README/CMUNeXt.png" width = "50%">
+</div>
 
-     ![SE结构图](../Images/HackingYOLO_README/SE.png)
+`作者：Fenghe Tang, Jianrui Ding, Lingtao Wang, Chunping Ning, S. Kevin Zhou`
 
-    作者：Jie Hu, Li Shen, Samuel Albanie, Gang Sun, Enhua Wu
+`团队： School of Biomedical Engineering Division of Life Sciences University of Science and Technology of China (USTC); Center for Medical Imaging, Robotics, Analytic Computing and Learning (MIRACLE) Suzhou Institute for Advanced Research University of Science and Technology of China (USTC); Key Laboratory of Intelligent Information Processing Institute of Computing Technology Chinese Academy of Sciences (CAS);School of Computer Science and Technology, Harbin Institute of Technology; Ultrasound Department, The Affiliated Hospital of Qingdao University`
 
-    团队：State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences; Faculty of Science and Technology & AI Center at University of Macau
+论文地址：https://arxiv.org/abs/2308.01239
 
-    论文地址：https://arxiv.org/abs/1709.01507
-    
-    代码地址：https://github.com/hujie-frank/SENet
+代码地址：https://github.com/FengheTan9/CMUNeXt
 
-    **C6 其他**：新增上、下采样和卷积即插即用模块
+##### （3）**风车卷积 PConv（Pinwheel-shaped Convolution）**
 
-    （1）**上采样模块 EUCB（EMCAD）**
+<div align=center>
+<img src="../Images/HackingYOLO_README/PConv.png" width = "50%">
+</div>
 
-     ![EUCB结构图](<../Images/HackingYOLO_README/EMCAD EUCB.png>)
+`作者：Jiangnan Yang, Shuangli Liu, Jingjun Wu, Xinyu Su, Nan Hai, Xueli Huang`
 
-    作者：Md Mostafijur Rahman, Mustafa Munir, Radu Marculescu
+`团队：School of Information and Engineering, Southwest University of Science and Technology; School of Electronic and Optical Engineering, Nanjing University of Science and Technology` 
 
-    团队：The University of Texas at Austin Austin
+论文地址：https://arxiv.org/abs/2412.16986v1
 
-    论文地址：https://arxiv.org/abs/2405.06880
-    
-    代码地址：https://github.com/SLDGroup/EMCAD
-
-    （2）**卷积模块 C2f_CMUNeXtBlock（CMUNeXt）**
-
-     ![CMUNeXtBlock结构图](../Images/HackingYOLO_README/CMUNeXt.png)
-
-    作者：Fenghe Tang, Jianrui Ding, Lingtao Wang, Chunping Ning, S. Kevin Zhou
-
-    团队： School of Biomedical Engineering Division of Life Sciences University of Science and Technology of China (USTC); Center for Medical Imaging, Robotics, Analytic Computing and Learning (MIRACLE) Suzhou Institute for Advanced Research University of Science and Technology of China (USTC); Key Laboratory of Intelligent Information Processing Institute of Computing Technology Chinese Academy of Sciences (CAS);
-    School of Computer Science and Technology, Harbin Institute of Technology; Ultrasound Department, The Affiliated Hospital of Qingdao University
-
-    论文地址：https://arxiv.org/abs/2308.01239
-    
-    代码地址：https://github.com/FengheTan9/CMUNeXt
+代码地址：https://github.com/JN-Yang/PConv-SDloss-Data
